@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+ <header class="header"> <!--head section-->
+   <h1 id="title" class="text-center">Watermelons</h1>
+   <p id="description">Survery Form regarding taste of <strong> Watermelons</p></strong><br>
+  <form action="#" id="survey-form">
+    <h2 id="title-pad">Let's find out more about you:</h2>
+    <!--form section-->
+    <div class="form-group">
+      <label id="name-label" for="name">Name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        class="form-control"
+        placeholder="Enter your name"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="email-label" for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        class="form-control"
+        placeholder="Enter your Email"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="number-label" for="number"
+        >Age<span class="clue">(optional)</span></label
+      >
+      <input
+        type="number"
+        name="age"
+        id="number"
+        min="10"
+        max="99"
+        class="form-control"
+        placeholder="Age"
+      />
+    </div>
+<br>
+<div class="form-group">
+      <p>Which option best describes your current role?</p>
+      <select id="dropdown" name="role" class="form-control" required>
+        <option disabled selected value>Select current role</option>
+        <option value="student">Student Watermelon</option>
+        <option value="job">Full Time Employed Watermelon</option>
+        <option value="learner">Unnemployed Watermelon</option>
+        <option value="preferNo">Prefer not to say</option>
+        <option value="other">Other</option>
+    </select></div>
+ <br>
+<fieldset class="form-group">
+        <legend>What kind of watermelon are you?</legend>
+        <input id="watermelon1" type="radio" name="levels" value="seedless">
+        <label for="watermelon1">Seedless </label><br>
+        <input id="watermelon2" type="radio" name="levels" value="Not a watermelon">
+        <label for="watermelon2">Not a Watermelon</label><br>
+        <input id="watermelon3" type="radio" name="levels" value="Soft squishy watermelon">
+        <label for="watermelon3">Soft Squishy Watermelon</label>
+      </fieldset>
+
+ <br>
+ <div class="form-group"><br>
+ <p>What checkboxes would you like to check?</p><br>
+ <section id="grid-container">
+  <div "id=item2">
+   <label><input class="input-checkbox" type="checkbox" name="likes" value="Softserve Vanilla Watermelon">
+ Softserve Vanilla Watermelon</label><br>
+  <label
+        ><input 
+          name="likes"
+          value="Chocolate seedless watermelon"
+          type="checkbox"
+          class="input-checkbox"
+                />Chocolate seedless watermelon</label><br>
+    <label
+        ><input 
+          name="likes"
+          value="Rasperby melon"
+          type="checkbox"
+          class="input-checkbox"
+                />Rasperby melon</label>
+   </div>
+  <div id="item3">
+
+       <input
+          name="likes"
+          value="Rainbow dash yellow melon"
+          type="checkbox"
+          class="input-checkbox">Rainbow dash yellow melon</label>
+   <br>
+  <label><input
+          name="likes"
+          value="Meerkat melon"
+          type="checkbox"
+          class="input-checkbox"
+         />Meerkat melon</label>
+   <br><label><input
+                 name="likes"
+                 value="Not decided yet"
+                 type="checkbox"
+                 class="input-checkbox">Not decided yet</label>
+   </div></section>
+    <div class="form-group">
+      <p>Please leave any comments or questions below...</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+                type="textarea"
+                name="comments"
+                placeholder="Leave comments here">
+</textarea></div></section>
+    <Div>
+      <button id="submit" class="submit-button">
+        <input type="submit"
+               name="submit"
+               
+        </button>
+
+
